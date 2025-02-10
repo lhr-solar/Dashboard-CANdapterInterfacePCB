@@ -1,5 +1,1184 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5b230f0c-bad1-412c-8e02-962ef4f1fe3f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:DE9_Plug_MountingHoles"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE9_Plug_MountingHoles"
+				(at 0 14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector plug male D-SUB DB9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Male*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE9_Plug_MountingHoles_0_1"
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DE9_Plug_MountingHoles_1_1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 137.668 78.486)
+		(uuid "1a823326-287b-4925-b512-25675e26b402")
+	)
+	(no_connect
+		(at 138.176 110.744)
+		(uuid "1eb021fa-c05d-42b9-a5af-af6839a74076")
+	)
+	(no_connect
+		(at 145.288 83.566)
+		(uuid "1f425e1c-16b2-4502-9314-6104bb824285")
+	)
+	(no_connect
+		(at 138.176 108.204)
+		(uuid "29b61340-832d-4454-8c29-4468ab9a32ee")
+	)
+	(no_connect
+		(at 137.668 65.786)
+		(uuid "316f81ea-8393-4445-9213-ca63a136269f")
+	)
+	(no_connect
+		(at 138.176 103.124)
+		(uuid "32bf1194-79cc-4ab5-a67e-165c5b1fc5fe")
+	)
+	(no_connect
+		(at 137.668 73.406)
+		(uuid "3c475620-c305-41b7-9071-0502f109cc5a")
+	)
+	(no_connect
+		(at 137.668 70.866)
+		(uuid "59d36389-e36b-44f6-b649-6cf9fbda6c63")
+	)
+	(no_connect
+		(at 138.176 92.964)
+		(uuid "6b44bcf2-71c0-46a2-82f1-16c2f502c3bb")
+	)
+	(no_connect
+		(at 137.668 63.246)
+		(uuid "71585f25-c16b-4e17-9bcf-9967ee7825ba")
+	)
+	(no_connect
+		(at 137.668 75.946)
+		(uuid "7dfc13e9-4d12-4bf3-ba05-0f86a34afa4a")
+	)
+	(no_connect
+		(at 138.176 95.504)
+		(uuid "85f74b29-c30a-44a5-9147-a31187f10d13")
+	)
+	(no_connect
+		(at 145.796 115.824)
+		(uuid "ab4319d7-426c-4858-9a2a-a2a55c1a6c9e")
+	)
+	(no_connect
+		(at 138.176 98.044)
+		(uuid "dacca41c-8715-45c3-ae9c-c186c04a2a9b")
+	)
+	(no_connect
+		(at 138.176 105.664)
+		(uuid "f089ebeb-86ee-4a02-a7b6-0de7ce05e093")
+	)
+	(no_connect
+		(at 137.668 60.706)
+		(uuid "f40cec44-84e5-48c0-a4be-647c9e53d5b1")
+	)
+	(wire
+		(pts
+			(xy 90.424 57.912) (xy 96.52 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4a419a-95b3-4f65-8a18-594e880590f4")
+	)
+	(wire
+		(pts
+			(xy 134.874 68.326) (xy 137.668 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a498b83-1784-4098-a055-920677f54273")
+	)
+	(wire
+		(pts
+			(xy 90.678 73.914) (xy 96.266 73.914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81991505-2ee3-48cb-bbb7-7d8bde828daf")
+	)
+	(wire
+		(pts
+			(xy 90.678 76.454) (xy 96.266 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92af7b0a-e12e-4242-a7b9-508016facf0a")
+	)
+	(wire
+		(pts
+			(xy 134.874 100.584) (xy 138.176 100.584)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add77823-8160-49df-81ca-1351561df74e")
+	)
+	(wire
+		(pts
+			(xy 134.366 58.166) (xy 137.668 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a58e49-630d-4fc0-804e-5394b28f87c2")
+	)
+	(wire
+		(pts
+			(xy 134.874 90.424) (xy 138.176 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9713f08-d88b-4b8c-bae8-1807e9a32008")
+	)
+	(wire
+		(pts
+			(xy 90.424 60.452) (xy 96.52 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e991b0e4-20bb-495b-b865-100c47e73594")
+	)
+	(label "CarCAN_+"
+		(at 134.874 68.326 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04dd5c35-da45-40df-8440-ccf479f5340c")
+	)
+	(label "MotorCAN_H"
+		(at 134.874 100.584 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0591f13b-41da-4fe4-80d2-a09d0dd9cb6e")
+	)
+	(label "MotorCAN_H"
+		(at 96.266 76.454 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07b17eda-943d-41f0-8282-8dfe05de9b0b")
+	)
+	(label "CarCAN_-"
+		(at 96.52 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e640647-0cb3-4f9a-84ee-1d4f58e2f9bd")
+	)
+	(label "CarCAN_-"
+		(at 134.366 58.166 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c6d3321-8018-4955-bd50-295c7451e946")
+	)
+	(label "CarCAN_+"
+		(at 96.52 60.452 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "522dd5a7-13d2-4f6e-818a-445b9bb4336a")
+	)
+	(label "MotorCAN_L"
+		(at 96.266 73.914 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "590cf0c6-bdb9-4935-a0a0-40513cf0bc5a")
+	)
+	(label "MotorCAN_L"
+		(at 134.874 90.424 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4c4c23f-a701-41df-8593-4d8b74806a0a")
+	)
+	(symbol
+		(lib_id "Connector:DE9_Plug_MountingHoles")
+		(at 145.796 100.584 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162f6e84-3cf4-4fc6-9b41-729f87052408")
+		(property "Reference" "J4"
+			(at 151.13 99.3139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MotorCAN DB9"
+			(at 151.13 101.8539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DB-9 Connector:AMPHENOL_L77SDE09SA4CH3R"
+			(at 145.796 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 145.796 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
+			(at 145.796 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "76701dfb-9b7b-42ae-82bd-f9b6ecca64ef")
+		)
+		(pin "1"
+			(uuid "af458ec2-8b7a-4fc5-8400-a999be945b99")
+		)
+		(pin "7"
+			(uuid "3105c8fa-163a-4c61-9c9d-18323409d019")
+		)
+		(pin "9"
+			(uuid "dbabcfa8-0f84-49e3-91a2-a09ad63fd062")
+		)
+		(pin "3"
+			(uuid "665316d4-47ca-4ff0-b45f-2aa67024ef99")
+		)
+		(pin "2"
+			(uuid "f373a64c-b4c1-47d7-ad8e-7d59a9427f13")
+		)
+		(pin "4"
+			(uuid "d4532cb5-014e-4430-b331-45082cecbf4e")
+		)
+		(pin "6"
+			(uuid "fd8cf1b4-da16-4b69-972f-bfd55354d507")
+		)
+		(pin "5"
+			(uuid "704a82e0-2b6d-40a7-9e63-084b9bc14a4b")
+		)
+		(pin "8"
+			(uuid "21ce3f48-c963-4f47-ad86-ab588af78029")
+		)
+		(instances
+			(project "Dashboard-CANdapterInterfacePCB"
+				(path "/5b230f0c-bad1-412c-8e02-962ef4f1fe3f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Plug_MountingHoles")
+		(at 145.288 68.326 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f45b6af-9131-4801-b5bc-19e1f10eabf1")
+		(property "Reference" "J3"
+			(at 149.86 67.0559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CarCAN DB9"
+			(at 149.86 69.5959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DB-9 Connector:AMPHENOL_L77SDE09SA4CH3R"
+			(at 145.288 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 145.288 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
+			(at 145.288 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "35acf655-c13e-462c-90ce-913ef2dc331e")
+		)
+		(pin "1"
+			(uuid "18217dbf-3b30-4ddc-8461-1cbca01895a7")
+		)
+		(pin "7"
+			(uuid "ab7fbf65-8f1a-42d8-968b-9700cb0140eb")
+		)
+		(pin "9"
+			(uuid "894dccb5-b632-4c08-86f1-8680ba37374e")
+		)
+		(pin "3"
+			(uuid "c7a391fa-9126-4ad4-9162-b4b1862db9bd")
+		)
+		(pin "2"
+			(uuid "c10ccbd1-3283-4cda-af4d-e2e09968f90a")
+		)
+		(pin "4"
+			(uuid "2b17ac03-e746-4ee5-a64f-f1e12646bf45")
+		)
+		(pin "6"
+			(uuid "a1e9d751-93fb-49c0-be1d-e13419705856")
+		)
+		(pin "5"
+			(uuid "60dec383-d2fe-42c2-843b-fa4d25852e16")
+		)
+		(pin "8"
+			(uuid "160351b8-87df-4783-ae2e-28284c639fb0")
+		)
+		(instances
+			(project "Dashboard-CANdapterInterfacePCB"
+				(path "/5b230f0c-bad1-412c-8e02-962ef4f1fe3f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 85.598 76.454 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cec4349-ed9a-4f59-a26d-c53ee9e55bf0")
+		(property "Reference" "J1"
+			(at 83.566 76.4541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 83.566 73.9141 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 85.598 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.598 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.598 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2e35034-a99a-4a55-9b9b-3613277865ab")
+		)
+		(pin "1"
+			(uuid "027510c5-bb2c-4e73-9a78-1e02332e7a6c")
+		)
+		(instances
+			(project "Dashboard-CANdapterInterfacePCB"
+				(path "/5b230f0c-bad1-412c-8e02-962ef4f1fe3f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 85.344 60.452 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ae2b32-4c51-4bf7-9599-f465b1d6113f")
+		(property "Reference" "J2"
+			(at 83.312 60.4521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 83.312 57.9121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 85.344 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.344 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.344 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf1cc1a7-d43e-4d86-8958-20e1c84ed163")
+		)
+		(pin "1"
+			(uuid "4f190851-5c53-4da1-b95f-4bed12cf8ea9")
+		)
+		(instances
+			(project "Dashboard-CANdapterInterfacePCB"
+				(path "/5b230f0c-bad1-412c-8e02-962ef4f1fe3f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
