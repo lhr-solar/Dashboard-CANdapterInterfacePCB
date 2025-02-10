@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L77SDE09SA4CH3R")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/DB-9 Connector/L77SDE09SA4CH3R.kicad_sym")(options "")(descr ""))
+)
